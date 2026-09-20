@@ -15,5 +15,8 @@
 | `function_calling_basics.py` | Uses custom Python functions as Gemini tools, including automatic and manual function calling, multiple tools, arguments, and function-call details. | `python function_calling_basics.py` |
 | `code_execution_tool.py` | Uses Gemini's built-in Python code execution tool to generate and run code, inspect execution results, and view chat and response details. | `python code_execution_tool.py` |
 | `grounding_google_search.py` | Uses Gemini's built-in Google Search grounding for up-to-date information and shows the grounded response, response details, token usage, and quota errors. | `python grounding_google_search.py` |
-
+ | `context_caching_api.py` | Demonstrates explicit context caching with `client.caches.create()`, cache token usage, TTL, cache reuse across multiple queries, and Free Tier cache-limit handling with a normal-generation fallback. | `python context_caching_api.py` |
+| `text_embeddings.py` | Generates text embeddings with `client.models.embed_content()` using `gemini-embedding-001`, demonstrates semantic-similarity task configuration, token counting, configurable vector dimensions, sample vector values, and common embedding use cases. | `python text_embeddings.py` |
+| `async_generation.py` | Demonstrates asynchronous Gemini API generation with `client.aio.models.generate_content()`, including async request timing, response details, finish reason, token usage, and error handling. | `python async_generation.py` |
+| `error_handling_and_retries.py` | Demonstrates Gemini API error handling with retry logic for `429 RESOURCE_EXHAUSTED`, `404` model errors, progressive retry delays, quota detection, response details, and token usage. | `python error_handling_and_retries.py` |
 
