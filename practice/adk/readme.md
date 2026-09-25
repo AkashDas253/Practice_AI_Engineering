@@ -35,3 +35,14 @@ adk_practice/
 | `tool_context/` | Accessing runtime state and session metadata inside tools via `ToolContext`. | `python tool_context/main.py` | `adk run tool_context` |
 
 ---
+
+### State Management & Execution Control
+
+| Practice Folder | Purpose / ADK Feature | Direct Python Command | ADK CLI Command |
+| --- | --- | --- | --- |
+| `sessions/` | Multi-turn conversation persistence and session history management.| `python sessions/main.py` | `adk run sessions` |
+| `state_management/` | Reading, updating, and scoping variables in runtime session memory. | `python state_management/main.py` | `adk run state_management` |
+| `streaming/` | Intercepting real-time token streams and intermediate generation events. | `python streaming/main.py` | `adk run streaming` |
+| `callbacks/` | Hooking into pre/post execution events for models, agents, and tools. | `python callbacks/main.py` | `adk run callbacks` |
+
+---
