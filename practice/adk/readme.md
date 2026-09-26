@@ -46,3 +46,16 @@ adk_practice/
 | `callbacks/` | Hooking into pre/post execution events for models, agents, and tools. | `python callbacks/main.py` | `adk run callbacks` |
 
 ---
+
+### Workflows & Multi-Agent Systems
+
+| Practice Folder | Purpose / ADK Feature | Direct Python Command | ADK CLI Command |
+| --- | --- | --- | --- |
+| `sequential_workflow/` | Chaining agents sequentially where Agent A output feeds Agent B input.| `python sequential_workflow/main.py` | `adk run sequential_workflow` |
+| `parallel_workflow/` | Executing independent sub-agents concurrently and merging results. | `python parallel_workflow/main.py` | `adk run parallel_workflow` |
+| `loop_workflow/` | Iterative task execution loops for self-correction and refinement. | `python loop_workflow/main.py` | `adk run loop_workflow` |
+| `sub_agents/` | Explicit task delegation from a coordinator agent to specialized sub-agents. | `python sub_agents/main.py` | `adk run sub_agents` |
+| `multi_agent_system/` | Autonomous multi-agent coordination with dynamic routing. | `python multi_agent_system/main.py` | `adk run multi_agent_system` |
+
+---
+
