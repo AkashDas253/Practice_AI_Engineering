@@ -59,3 +59,13 @@ adk_practice/
 
 ---
 
+### Production Utilities & Evaluation
+
+| Practice Folder | Purpose / ADK Feature | Direct Python Command | ADK CLI Command |
+| --- | --- | --- | --- |
+| `artifacts/` | Generating, reading, and managing file-based output artifacts. | `python artifacts/main.py` | `adk run artifacts` |
+| `memory/` | Vector database integration and semantic memory retrieval across turns. | `python memory/main.py` | `adk run memory` |
+| `evaluation/` | Automated evaluation suites for agent reasoning and tool call accuracy. | `python evaluation/main.py` | `adk run evaluation` |
+
+ ---
+ 
