@@ -1,0 +1,43 @@
+{
+  "query": "How does retrieval augmented generation use retrieved information?",
+  "source": "rag.txt",
+  "chunks_created": 5,
+  "records_created": 5,
+  "retrieved_records": [
+    {
+      "id": "rag_chunk_1",
+      "similarity": 0.8503564000349964,
+      "metadata": {
+        "source": "rag.txt",
+        "title": "rag",
+        "document_type": ".txt",
+        "chunk": 1
+      },
+      "text": "Retrieval-Augmented Generation\n\nRetrieval-Augmented Generation, commonly called RAG, combines information retrieval with language generation.\n\nA RAG system first searches a collection of documents for information relevant to a user's question. The retrieved information is then provided to a language"
+    },
+    {
+      "id": "rag_chunk_2",
+      "similarity": 0.7901342834504675,
+      "metadata": {
+        "source": "rag.txt",
+        "title": "rag",
+        "document_type": ".txt",
+        "chunk": 2
+      },
+      "text": "model as context.\n\nThe language model uses this retrieved context to generate an answer. This allows an application to use information that may not have been part of the model's original training data.\n\nA basic RAG pipeline usually contains several stages:\n\nLoad documents.\n\nParse and clean the docu"
+    },
+    {
+      "id": "rag_chunk_4",
+      "similarity": 0.7664006677567728,
+      "metadata": {
+        "source": "rag.txt",
+        "title": "rag",
+        "document_type": ".txt",
+        "chunk": 4
+      },
+      "text": "ieval has a significant effect on the quality of the final answer. If the relevant information is not retrieved, the language model may not have enough useful context to answer the question correctly.\n\nRAG can also return information about the sources used to generate an answer. This makes it possib"
+    }
+  ],
+  "context": "[Source: rag.txt | Chunk: 1]\nRetrieval-Augmented Generation\n\nRetrieval-Augmented Generation, commonly called RAG, combines information retrieval with language generation.\n\nA RAG system first searches a collection of documents for information relevant to a user's question. The retrieved information is then provided to a language\n\n[Source: rag.txt | Chunk: 2]\nmodel as context.\n\nThe language model uses this retrieved context to generate an answer. This allows an application to use information that may not have been part of the model's original training data.\n\nA basic RAG pipeline usually contains several stages:\n\nLoad documents.\n\nParse and clean the docu\n\n[Source: rag.txt | Chunk: 4]\nieval has a significant effect on the quality of the final answer. If the relevant information is not retrieved, the language model may not have enough useful context to answer the question correctly.\n\nRAG can also return information about the sources used to generate an answer. This makes it possib",
+  "answer": "Based on the provided context, a language model uses the retrieved information as context to generate an answer."
+}

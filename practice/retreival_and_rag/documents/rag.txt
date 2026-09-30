@@ -1,0 +1,29 @@
+Retrieval-Augmented Generation
+
+Retrieval-Augmented Generation, commonly called RAG, combines information retrieval with language generation.
+
+A RAG system first searches a collection of documents for information relevant to a user's question. The retrieved information is then provided to a language model as context.
+
+The language model uses this retrieved context to generate an answer. This allows an application to use information that may not have been part of the model's original training data.
+
+A basic RAG pipeline usually contains several stages:
+
+Load documents.
+
+Parse and clean the document content.
+
+Split documents into smaller chunks.
+
+Create embeddings for the chunks.
+
+Store the embeddings and associated content.
+
+Retrieve relevant chunks for a user query.
+
+Provide the retrieved chunks to a language model.
+
+Generate an answer based on the retrieved context.
+
+The quality of retrieval has a significant effect on the quality of the final answer. If the relevant information is not retrieved, the language model may not have enough useful context to answer the question correctly.
+
+RAG can also return information about the sources used to generate an answer. This makes it possible for applications to show users where retrieved information came from.

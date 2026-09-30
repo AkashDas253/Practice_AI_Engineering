@@ -1,0 +1,7 @@
+concept,description,example
+Document Loading,Reads source documents into the application,"Load rag.txt from a local directory"
+Text Chunking,Splits documents into smaller pieces,"Split a long document into 500-character chunks"
+Embeddings,Represents text as numerical vectors,"Convert a chunk into an embedding"
+Retrieval,Finds information relevant to a query,"Retrieve chunks related to RAG"
+Context Assembly,Combines retrieved information for the model,"Place retrieved chunks into a prompt"
+Generation,Produces an answer using the retrieved context,"Generate an answer about RAG"

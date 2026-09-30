@@ -1,0 +1,25 @@
+{
+"title": "Retrieval-Augmented Generation",
+"topic": "RAG",
+"description": "RAG combines information retrieval with language generation.",
+"pipeline": [
+"document loading",
+"document parsing",
+"text chunking",
+"embedding generation",
+"retrieval",
+"context assembly",
+"generation"
+],
+"retrieval": {
+"purpose": "Find information relevant to a user query.",
+"common_methods": [
+"keyword search",
+"semantic search",
+"hybrid search"
+]
+},
+"generation": {
+"purpose": "Generate an answer using retrieved information as context."
+}
+}
