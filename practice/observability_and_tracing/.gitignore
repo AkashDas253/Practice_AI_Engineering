@@ -1,0 +1,4 @@
+_dump/
+venv/
+.env
+output/
